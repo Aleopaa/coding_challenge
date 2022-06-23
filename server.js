@@ -6,8 +6,7 @@ server.use(cors());
 server.use(express.json());
 
 const postRoutes = require("./routes/post");
-server.use("/post", postRoutes);
-server.use("/get", postRoutes);
+server.use("/posts", postRoutes);
 server.get("/", (req, res) =>
   res.send("Welcome to the coding challenge server")
 );
