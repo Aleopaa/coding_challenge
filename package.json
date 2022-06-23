@@ -5,13 +5,13 @@
     "pg": "^8.7.3"
   },
   "scripts": {
-    "start": "node server.js",
+    "start": "node index.js",
     "dev": "nodemon index.js",
     "seedDev": "node dbConfig/seedDev.js"
   },
   "name": "coding_challenge",
   "version": "1.0.0",
-  "main": "server.js",
+  "main": "index.js",
   "keywords": [],
   "author": "",
   "license": "ISC",
